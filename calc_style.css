@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("pexels-wendywei-4000421.jpg");
+    background-size: cover;
+}
+#calculator{
+    font-family: sans-serif;
+    background-color: hsl(0,0%,15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow:hidden;
+    padding: 20px;
+}
+#display{
+    width: 100%;
+    padding: 5px;
+    text-align: left;
+    font-size: 5rem;
+    background-color: hsl(0,0%,15%);
+    border: none;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 20px;
+    padding: 25px;
+    width: 100%;
+    justify-content: center;
+
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color:hsl(0,0%,30%) ;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0,0%,40%);
+}
+button:active{
+    background-color: hsl(0,0%,50%);
+}
+.operator{
+    background-color: hsl(39,100%,50%);
+}
+.operator:hover{
+    background-color: hsl(39,100%,65%);
+}
+.operator:active{
+    background-color: hsl(39,100%,75%);
+}
+
+
+
